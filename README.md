@@ -10,3 +10,6 @@ crypto for.
 The reason for this is to allow you to test multiple strategies live using the same API key. You will
 run into IP blacklist issues if you run too many Gekko bots from the same IP address if the exchange
 has a low rate limit, but you should be able to test 3 - 5 strategies easily with this modification.
+
+Note: This trader.js also writes trades to a CSV file. You will need to install fs (npm i fs) in your
+Gekko folder. Instructions for that are in this video: https://www.youtube.com/watch?v=662t8cQ0DRk

@@ -1,5 +1,7 @@
 # Balance Limit for Gekko
 
+Video about this code: https://www.youtube.com/watch?v=bgug5i2NkqU
+
 I modified the trader.js in Gekko so let's say you have $100 USD (or the fiat currency of your choice) 
 and you only want Gekko to use $10, you just set that in the currentBalance variable. Now Gekko will only 
 use $10 even though you have $100 available. The winning/losing trades will adjust the currentBalance so
